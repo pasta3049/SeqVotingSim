@@ -62,15 +62,15 @@ public class DPVotingExecutor {
             }
         });
 
-        boolean debugTest = true;
+        //boolean debugTest = true;
         for (File file : files) {
-        	if (debugTest){
+        	//if (debugTest){
         		Path filePath = file.toPath();
         		if (Files.isRegularFile(filePath)) {
         			threadPool.submit(new SampleFileProcessor(filePath, new String[]{"-ac"},"2APPROVAL"));
         		}
-        		debugTest = false;
-        	}
+        	//	debugTest = false;
+        	//}
         }
         // shutdown the pool once you've submitted your last job
         long lStartTime = System.currentTimeMillis();
