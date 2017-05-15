@@ -4,3 +4,5 @@
  This is a university project; the project supervisor is Edith Elkind, University of Oxford.
  
  Makes use of code from https://github.com/AriApar/SeqVotingSim which is another university project under the same supervisor. Where code is taken from AriApar's project, this is indicated by a comment in the file showing that the file is AriApar's work.
+ 
+ Please note that the project requires Google's Guava library (https://github.com/google/guava) and FastUtil from Sebastiano Vigna, Università degli Studi Di Milano (http://fastutil.di.unimi.it/)
